@@ -38,16 +38,16 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'Introduced to Computer Science', },
+  { year: 2019, text: 'Earned silver badges on C++ and Problem Solving from HackerRank', },
+  { year: 2020, text: 'Admitted to The University of British Columbia', },
+  { year: 2021, text: 'Worked as a freelance Wix developer', },
+  { year: 2021, text: 'Admitted to Computer Science major at UBC', },
 ];
 
 export const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 7, text: 'Open Source Projects'},
+  { number: 1, text: 'Hackathon Participation', },
+  { number: 2, text: 'Github Followers', },
+  { number: 1, text: 'Github Stars', }
 ];
