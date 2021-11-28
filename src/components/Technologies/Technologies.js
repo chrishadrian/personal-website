@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with React.js and Next.js in the web development world.
+      I've worked with React and Next in the web development, and Java, Swing, and JSon in desktop application development.
     </SectionText>
     <List>
       <ListItem>
@@ -18,7 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            HTML, CSS, and React
           </ListParagraph>
         </ListContainer> 
       </ListItem>
@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node and JSon
           </ListParagraph>
         </ListContainer> 
       </ListItem>
@@ -38,7 +38,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma
+            Figma and Wix
           </ListParagraph>
         </ListContainer> 
       </ListItem>
