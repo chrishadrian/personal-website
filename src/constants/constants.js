@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Unixpense',
-    description: "Using Java, Java Swing, and JSON, I created a object-oriented graphical user interface application from scratch. The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing expense(s) that they have.",
+    description: "Using Java, Java Swing, and JSON, I created an object-oriented graphical user interface application from scratch. The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing their expense(s).",
       image: '/images/1.png',
       tags: ['Java', 'Java Swing', 'JSON'],
     source: 'https://google.com',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Richelle Shop',
-    description:"Using Wix, a cloud-based web development services, I developed a full-stack website for a shoe retail online shop. The website is called Richelle Shop, as it resonates its brand and originality, and it allows users to browse through store's inventories, starting from its picture, size, color, description, prize, and payment method.",
+    description:"Using Wix, a cloud-based web development services, I developed a full-stack website for a shoe retail online shop. The website is called Richelle Shop, as it resonates its brand and originality, and it allows users to browse through store's inventories, starting from its picture, size, color, description, price, and payment method.",
     image: '/images/2.png',
     tags: ['Wix'],
     source: 'https://richelle.shop',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Hackathon 2021: Prografit',
-    description: "Using HTML, CSS, Javascript, I was responsible to build a chrome extension to send an alert every 20 minutes to users. Users have the option to opt-out from being reminded when the time is still going. The data submitted then will be transferred to the webpage, which will display users' statistics over the week. I did this project with three other teammates that were enrolled in Hackathon 2021.",
+    description: "Using HTML, CSS, Javascript, I was responsible to build a chrome extension to send an alert every 20 minutes to users. Users have the option to opt-out from being reminded when the time is still going. The submitted data will then be transferred to the webpage, which was built by my other teammates that will display users' statistics over the week. I did this project during HackTheNorth 2021, the largest hackathon in North America.",
       image: '/images/3.png',
       tags: ['HTML', 'CSS', 'Javascript'],
     source: 'https://github.com/northmen-hackers',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'To-do list',
-    description: "Using react.js, I built a simple to-do list application. In this application, users can add a new to-do item and remove items everytime users click the selected to-do list. This was built during Hackathon 2021 Workshop: ",
+    description: "Using react.js, I built a simple to-do list application. In this application, users can add a new to-do item and remove items everytime users click the selected to-do list. This was built during a workshop in HackTheNortth 2021, Canada's biggest hackathon.",
     image: '/images/4.png',
     tags: ['React'],
     source: 'https://github.com/chrishadrian/todo-react',
