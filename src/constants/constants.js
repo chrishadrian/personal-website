@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'To-do list',
-    description: "Using react.js, I built a simple to-do list application. In this application, users can add a new to-do item and remove items everytime users click the selected to-do list. This was built during a workshop in HackTheNortth 2021, Canada's biggest hackathon.",
+    description: "Using React.js, I built a simple to-do list application. In this application, users can add a new to-do item and remove items everytime users click the selected to-do list. This was built during a workshop in HackTheNortth 2021, Canada's biggest hackathon.",
     image: '/images/4.png',
     tags: ['React'],
     source: 'https://github.com/chrishadrian/todo-react',
