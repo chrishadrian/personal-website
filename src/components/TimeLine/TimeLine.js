@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I like how technology could help us in increasing the efficiency of a system and simplifying complex problems. I prefer an optimized work than unnecessary complicated works. </SectionText>
+      I like how technology could help us in simplifying complex problems and increasing the efficiency of a system. I prefer an optimized work than unnecessary complicated works. </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
