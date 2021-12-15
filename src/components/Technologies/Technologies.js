@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with React and Next in the web development and Java, Swing, and JSon in desktop application development.
+      I've worked with HTML, CSS, Javascript, React.js, and Nextjs. in the web development and Java, Swing, and JSon in desktop application development.
     </SectionText>
     <List>
       <ListItem>
