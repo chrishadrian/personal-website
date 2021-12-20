@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Hackathon 2021: Prografit',
+    title: 'HacktheNorth 2021: Prografit',
     description: "Using HTML, CSS, Javascript, I was responsible to build a chrome extension to send an alert every 20 minutes to users. Users have the option to opt-out from being reminded when the time is still going. The submitted data will then be transferred to the webpage, which was built by my other teammates that will display users' statistics over the week. I did this project during HackTheNorth 2021, the largest hackathon in North America.",
       image: '/images/3.png',
       tags: ['HTML', 'CSS', 'Javascript'],
