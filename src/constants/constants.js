@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Unixpense',
-    description: "Using Java, Java Swing, and JSON, I created an object-oriented graphical user interface application from end-to-end. The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing their expense(s).",
+    description: "The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing their expense(s). Using Java, Java Swing, and JSON, I created an object-oriented graphical user interface application from end-to-end. I designed the object-oriented program (OOP) with Java, read and write the app's data with JSON, and created the graphical user interface (GUI) with Java Swing. This was made when I was completing my Software Construction course in The University of British Columbia.",
       image: '/images/1.png',
       tags: ['Java', 'Java Swing', 'JSON'],
     source: 'https://google.com',
@@ -46,8 +46,8 @@ export const TimeLineData = [
 ];
 
 export const data = [
-  { number: 7, text: 'Open Source Projects'},
-  { number: 1, text: 'Hackathon Participation', },
+  { number: 9, text: 'Github Repositories'},
+  { number: 2, text: 'Hackathon Participation', },
   { number: 2, text: 'Github Followers', },
   { number: 2, text: 'Github Stars', }
 ];
