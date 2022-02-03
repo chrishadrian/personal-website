@@ -1,5 +1,5 @@
-# portfolio_website
- Javascript Mastery Tutorial
+# Portfolio Website
+This is a guided project by Javascript Mastery Tutorial. It is published now on https://chrishadrian.netlify.app/.
 
 ## Run it on your localhost
 1. Open terminal and go to the directory of this project.
