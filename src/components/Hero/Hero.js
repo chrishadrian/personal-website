@@ -12,7 +12,7 @@ const Hero = (props) => (
         I am Christopher Wong
       </SectionTitle>
       <SectionText>
-      An independent and self-motivated sophomore computer science student with experience working on website development. Looking for a role where I can grow and learn from the experienced team members while implementing current skills on projects.
+      An independent and self-motivated sophomore computer science student with experience working on website development. Looking for a role where I can grow and learn from the experienced team members while implementing current skills to contribute to the team.
       </SectionText>
       <Button onClick={() => window.location = 'https://linkedin.com/in/chrishadrianwong'}>Learn More</Button>
     </LeftSection>
