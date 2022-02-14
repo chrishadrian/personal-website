@@ -5,8 +5,8 @@ export const projects = [
       image: '/images/3.png',
       image: '/images/1.png',
       tags: ['Java', 'Java Swing', 'JSON'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/chrishadrian/Unixpense',
+    visit: 'https://github.com/chrishadrian/Unixpense',
     id: 0,
   },
   {
