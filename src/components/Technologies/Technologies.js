@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and JSon
+            JSON, SQL, SQLite
           </ListParagraph>
         </ListContainer> 
       </ListItem>
