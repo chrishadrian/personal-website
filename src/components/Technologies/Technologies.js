@@ -1,61 +1,61 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiCodeBadge, DiFirebase, DiStackoverflow } from "react-icons/di";
 import {
-  Section,
-  SectionDivider,
-  SectionText,
-  SectionTitle,
+	Section,
+	SectionDivider,
+	SectionText,
+	SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
-  List,
-  ListContainer,
-  ListItem,
-  ListParagraph,
-  ListTitle,
+	List,
+	ListContainer,
+	ListIcon,
+	ListItem,
+	ListParagraph,
+	ListTitle,
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id="tech">
-    <SectionDivider />
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with HTML, CSS, Javascript, React.js, and Nextjs. in the web
-      development and Java, Swing, and JSon in desktop application development.
-    </SectionText>
-    <List>
-      <ListItem>
-        <DiReact size="3rem" />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            HTML, CSS, and React
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiFirebase size="3rem" />
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            JSON, SQL, SQLite
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiZend size="3rem" />
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Figma and Wix
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
-  </Section>
+	<Section id="tech">
+		<SectionDivider />
+		<br />
+		<SectionTitle>Skills</SectionTitle>
+		<SectionText>
+			I have 1.2 years of professional experience in developing full-stack
+			web applications, backend services, and a data warehouse.
+		</SectionText>
+		<List>
+			<ListItem>
+				<DiCodeBadge size="3rem" />
+				<ListContainer>
+					<ListTitle>Languages</ListTitle>
+					<ListParagraph>
+						Go, Javascript, CSS, Typescript, Python, SQL. C++, Java
+					</ListParagraph>
+				</ListContainer>
+			</ListItem>
+			<ListItem>
+				<DiFirebase size="3rem" />
+				<ListContainer>
+					<ListTitle>Databases</ListTitle>
+					<ListParagraph>
+						PostgreSQL, Microsoft SQL Server, Google Firestore,
+						SQLite
+					</ListParagraph>
+				</ListContainer>
+			</ListItem>
+			<ListItem>
+				<DiStackoverflow size="3rem" />
+				<ListContainer>
+					<ListTitle>Technologies</ListTitle>
+					<ListParagraph>
+						React/Redux, Tailwind CSS, Express, Koa, Docker, Git,
+						Jira, AWS, Kibana
+					</ListParagraph>
+				</ListContainer>
+			</ListItem>
+		</List>
+	</Section>
 );
 
 export default Technologies;
