@@ -43,14 +43,20 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-	{ year: 2017, text: "Introduced to Computer Science" },
-	{
-		year: 2019,
-		text: "Earned silver badges on C++ and Problem Solving from HackerRank",
-	},
 	{ year: 2020, text: "Admitted to The University of British Columbia" },
-	{ year: 2021, text: "Worked as a freelance Wix developer" },
-	{ year: 2021, text: "Admitted to Computer Science major at UBC" },
+	{
+		year: 2021,
+		text: "Enrolled in a student society, and got admitted to Computer Science major at UBC",
+	},
+	{
+		year: 2022,
+		text: "Landed my first and second software jobs at Felix Payment System and Alida",
+	},
+	{
+		year: 2023,
+		text: "Finished 1 year Co-op at Alida and lead web development team at Gado-Gado Indonesian Student Association of UBC",
+	},
+	{ year: 2024, text: "Looking for summer 2024 internship" },
 ];
 
 export const data = [
