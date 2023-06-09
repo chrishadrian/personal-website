@@ -10,7 +10,7 @@ const Acomplishments = () => {
 
 	useEffect(async () => {
 		const gitHubData = await getContributions(
-			"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",
+			process.env.NEXT_PUBLIC_GH_TOKEN,
 			"chrishadrian"
 		);
 		setContributions(
