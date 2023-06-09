@@ -60,8 +60,8 @@ export const TimeLineData = [
 ];
 
 export const data = [
-	{ number: 9, text: "Github Repositories" },
+	{ number: 1.2, text: "Years of Experience" },
 	{ number: 2, text: "Hackathon Participation" },
-	{ number: 2, text: "Github Followers" },
-	{ number: 2, text: "Github Stars" },
+	{ number: 14, text: "Github Repositories" },
+	{ number: 503, text: "Github Contributions" },
 ];
