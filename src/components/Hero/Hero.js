@@ -10,10 +10,10 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const handleDownload = () => {
-	const fileUrl = window.location.origin + "/files/CV_Christopher_Wong.pdf";
+	const fileUrl = window.location.origin + "/files/Christopher_Wong_Resume.pdf";
 	const link = document.createElement("a");
 	link.href = fileUrl;
-	link.download = "CV_Christopher_Wong.pdf";
+	link.download = "Christopher_Wong_Resume.pdf";
 	document.body.appendChild(link);
 	link.click();
 	document.body.removeChild(link);
