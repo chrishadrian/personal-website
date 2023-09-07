@@ -8,7 +8,7 @@ export const NavDiv = styled.nav`
 	${(props) =>
 		props.isSticky &&
 		css`
-			position: fixed;
+			position: sticky;
 			top: 0;
 			animation: fadeIn 0.5s;
 			background-color: #0F1624;
