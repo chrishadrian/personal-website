@@ -1,6 +1,23 @@
 import { IoIosArrowDropdown } from "react-icons/io";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
+export const NavDiv = styled.nav`
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	${(props) =>
+		props.isSticky &&
+		css`
+			position: fixed;
+			top: 0;
+			animation: fadeIn 0.5s;
+			background-color: #0F1624;
+			opacity: 0.8;
+	`}
+	@media ${(props) => props.theme.breakpoints.sm} {
+		position: static;
+	}	
+`;
 export const Container = styled.div`
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
