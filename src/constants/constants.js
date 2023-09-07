@@ -2,7 +2,7 @@ export const projects = [
 	{
 		title: "Recipe Buddy",
 		description:
-			"This software application was crafted with ReactJS, Auth0, and Firestore to deliver a streamlined solution for organizing online video recipes sourced from platforms like Instagram and TikTok. It allows users to gather recipes, access tutorial videos, ingredient lists, and instructions, while also offering a meal planning feature integrated with a calendar. Additionally, the application automatically generates shopping lists based on scheduled recipes, enhancing the overall cooking experience with efficiency and convenience.",
+			"This web application was crafted with ReactJS, Auth0, and Firestore to deliver a streamlined solution for organizing online video recipes sourced from platforms like Instagram and TikTok. It allows users to gather recipes, access tutorial videos, ingredient lists, and instructions, while also offering a meal planning feature integrated with a calendar. Additionally, the application automatically generates shopping lists based on scheduled recipes, enhancing the overall cooking experience with efficiency and convenience.",
 		image: "/images/RecipeBuddy.png",
 		tags: ["ReactJS", "Auth0", "Firestore"],
 		source: "https://github.com/chrishadrian/my-recipe-buddy",
@@ -12,7 +12,7 @@ export const projects = [
 	{
 		title: "GISAU Website",
 		description:
-			"This single-page website application serves as the central hub for the Indonesian Student Association at UBC, showcasing its online presence. Developed with ReactJS, Tailwind CSS, and Firestore, the application includes key pages such as home, about us, events, partners, and contact us. It effectively highlights the association's mission and activities, demonstrating proficiency in modern web development technologies.",
+			"This single-page web application serves as the central hub for the Indonesian Student Association at UBC, showcasing its online presence. Developed with ReactJS, Tailwind CSS, and Firestore, the application includes key pages such as home, about us, events, partners, and contact us. It effectively highlights the association's mission and activities, demonstrating proficiency in modern web development technologies.",
 		image: "/images/GISAU.png",
 		tags: ["ReactJS", "Tailwind CSS", "Firestore"],
 		source: "https://github.com/gisauweb/GISAUBC",
@@ -22,7 +22,7 @@ export const projects = [
 	{
 		title: "Sync-Up",
 		description:
-			"This software application, developed using ReactJS, ExpressJS, NodeJS, Firebase Authentication, and Firestore, is designed to enhance the study session scheduling experience. Users can effortlessly arrange study sessions with friends, earning reward points based on session duration, which can later be redeemed for sponsor coupons. Additionally, the application offers the flexibility to choose between in-person and virtual meeting options, catering to diverse user preferences.",
+			"This web application, developed using ReactJS, ExpressJS, NodeJS, Firebase Authentication, and Firestore, is designed to enhance the study session scheduling experience. Users can effortlessly arrange study sessions with friends, earning reward points based on session duration, which can later be redeemed for sponsor coupons. Additionally, the application offers the flexibility to choose between in-person and virtual meeting options, catering to diverse user preferences.",
 		image: "/images/SyncUp.png",
 		tags: ["ReactJS", "ExpressJS", "NodeJS", "Firebase Authentication", "Firestore"],
 		source: "https://github.com/Julian-UBC/Sync-Up",
