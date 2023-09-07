@@ -96,7 +96,7 @@ background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+background: #801414;
 
 }
 `;
@@ -105,8 +105,10 @@ export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+flex-wrap: wrap;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+padding-bottom: 1rem;
 `

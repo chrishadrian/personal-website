@@ -2,31 +2,31 @@ export const projects = [
 	{
 		title: "GISAU Website",
 		description:
-			"The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing their expense(s). Using Java, Java Swing, and JSON, I created an object-oriented graphical user interface application from end-to-end. I designed the object-oriented program (OOP) with Java, read and write the app's data with JSON, and created the graphical user interface (GUI) with Java Swing.",
+			"",
 		image: "/images/GISAU.png",
-		tags: ["Java", "Java Swing", "JSON"],
-		source: "https://github.com/chrishadrian/Unixpense",
-		visit: "https://github.com/chrishadrian/Unixpense",
+		tags: ["ReactJS", "Tailwind CSS", "Firestore"],
+		source: "https://github.com/gisauweb/GISAUBC",
+		visit: "https://gisaubc.com",
 		id: 4,
 	},
 	{
 		title: "Recipe Buddy",
 		description:
-			"The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing their expense(s). Using Java, Java Swing, and JSON, I created an object-oriented graphical user interface application from end-to-end. I designed the object-oriented program (OOP) with Java, read and write the app's data with JSON, and created the graphical user interface (GUI) with Java Swing.",
+			"",
 		image: "/images/RecipeBuddy.png",
-		tags: ["Java", "Java Swing", "JSON"],
-		source: "https://github.com/chrishadrian/Unixpense",
-		visit: "https://github.com/chrishadrian/Unixpense",
+		tags: ["ReactJS", "Auth0", "Firestore"],
+		source: "https://github.com/chrishadrian/my-recipe-buddy",
+		visit: "https://myrecipebuddy.netlify.app/",
 		id: 3,
 	},
 	{
 		title: "Sync-Up",
 		description:
-			"The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing their expense(s). Using Java, Java Swing, and JSON, I created an object-oriented graphical user interface application from end-to-end. I designed the object-oriented program (OOP) with Java, read and write the app's data with JSON, and created the graphical user interface (GUI) with Java Swing.",
+			"",
 		image: "/images/SyncUp.png",
-		tags: ["Java", "Java Swing", "JSON"],
-		source: "https://github.com/chrishadrian/Unixpense",
-		visit: "https://github.com/chrishadrian/Unixpense",
+		tags: ["ReactJS", "ExpressJS", "NodeJS", "Firebase Authentication", "Firestore"],
+		source: "https://github.com/Julian-UBC/Sync-Up",
+		visit: "https://github.com/Julian-UBC/Sync-Up",
 		id: 2,
 	},
 	{
