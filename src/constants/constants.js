@@ -32,7 +32,7 @@ export const projects = [
 	{
 		title: "Unixpense",
 		description:
-			"The App is called Unixpense and it is a simple expense tracker app that allows users to track their expenses by creating, deleting, saving, loading and analyzing their expense(s). Using Java, Java Swing, and JSON, I created an object-oriented graphical user interface application from end-to-end. I designed the object-oriented program (OOP) with Java, read and write the app's data with JSON, and created the graphical user interface (GUI) with Java Swing.",
+			"A user-friendly expense tracker application built with Java, Java Swing, and JSON. This project included the creation of an end-to-end object-oriented program (OOP) in Java, seamless data read/write using JSON, and an intuitive graphical user interface (GUI) designed with Java Swing. Users can easily manage expenses, perform actions like creation, deletion, saving, loading, and in-depth analysis.",
 		image: "/images/1.png",
 		tags: ["Java", "Java Swing", "JSON"],
 		source: "https://github.com/chrishadrian/Unixpense",
@@ -42,7 +42,7 @@ export const projects = [
 	{
 		title: "HacktheNorth 2021: Prografit",
 		description:
-			"Using HTML, CSS, Javascript, I was responsible to build a chrome extension to send an alert every 20 minutes to users. Users have the option to opt-out from being reminded when the time is still going. The submitted data will then be transferred to the webpage, which was built by my other teammates that will display users' statistics over the week. I did this project during HackTheNorth 2021, the largest hackathon in North America.",
+			"A Chrome extension was developed using HTML, CSS, and JavaScript. This extension's primary function was to send periodic alerts to users every 20 minutes, with the option for users to opt out of reminders while the timer was active. User data collected by the extension was then transmitted to a dashboard, allowing users to access and analyze their weekly statistics.",
 		image: "/images/0.png",
 		tags: ["HTML", "CSS", "Javascript"],
 		source: "https://github.com/northmen-hackers",
