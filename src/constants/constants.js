@@ -12,9 +12,9 @@ export const projects = [
 	{
 		title: "GISAU Website",
 		description:
-			"This single-page web application serves as the central hub for the Indonesian Student Association at UBC, showcasing its online presence. Developed with ReactJS, Tailwind CSS, and Firestore, the application includes key pages such as home, about us, events, partners, and contact us. It effectively highlights the association's mission and activities, demonstrating proficiency in modern web development technologies.",
+			"This student association's web application serves as the central hub for the Indonesian student association at UBC, showcasing its online presence. Developed with ReactJS, Express, Typescript, Tailwind CSS, Auth0, Firebase Function, and Google Firestore, the application includes key pages such as home, about us, events, partners,  contact us, and games. It effectively highlights the association's mission and activities, demonstrating proficiency in modern web development technologies.",
 		image: "/images/GISAU.png",
-		tags: ["ReactJS", "Tailwind CSS", "Firestore"],
+		tags: ["ReactJS", "Express", "Typescript", "Tailwind CSS", "Auth0", "Firebase"],
 		source: "https://github.com/gisauweb/GISAUBC",
 		visit: "https://gisaubc.com",
 		id: 3,
