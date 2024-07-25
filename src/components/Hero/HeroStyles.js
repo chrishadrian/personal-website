@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const LeftSection = styled.div`
 	display: flex;
 	align-items: center;
-	width: 100%;
+	width: 100vw;
 	@media ${(props) => props.theme.breakpoints.sm} {
 		flex-direction: column;
 		width: 100%;
@@ -38,6 +38,11 @@ export const ProfileImage = styled.img`
 		height: 130px;
 		margin-bottom: 20px;
 		margin-right: 0;
+	}
+	@media ${(props) => props.theme.breakpoints.lg} {
+		width: 240px;
+		height: 240px;
+		margin-right: 50px;
 	}
 `;
 
