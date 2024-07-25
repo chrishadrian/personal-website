@@ -8,6 +8,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, ProfileImage, ContentSection } from "./HeroStyles";
+import { ReactTyped } from "react-typed";
 
 const handleDownload = () => {
 	const fileUrl = window.location.origin + "/files/Christopher_Wong_Resume.pdf";
@@ -24,8 +25,22 @@ const Hero = () => (
 		<LeftSection>
 			<ProfileImage src={"/images/profile.jpg"} alt="Christopher Wong" />
 			<ContentSection>
-				<SectionTitle main center>
-					Hello World! <br />I am Christopher Wong
+				<SectionTitle main>
+					Hello World!
+				</SectionTitle>
+				<SectionTitle typed>
+					<ReactTyped
+						strings={[
+							"I am Christopher Wong",
+							"I am an aspiring Software Engineer",
+							"I am an aspiring Full-Stack Developer",
+							"I love building impactful projects",
+							"I love playing basketball"
+						]}
+						typeSpeed={40}
+						backSpeed={50}
+						loop
+					/>
 				</SectionTitle>
 				<Button onClick={handleDownload}>My Résumé</Button>
 			</ContentSection>
