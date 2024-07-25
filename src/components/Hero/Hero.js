@@ -31,7 +31,7 @@ const Hero = () => (
 				<SectionTitle typed>
 					<ReactTyped
 						strings={[
-							"I am Christopher Wong",
+							"I am Christopher Hadrian Wong",
 							"I am an aspiring Software Engineer",
 							"I am an aspiring Full-Stack Developer",
 							"I love building impactful projects",
