@@ -54,6 +54,11 @@ const Header = () => {
 				</Div1>
 				<Div2>
 					<li>
+						<Link href="#about">
+							<NavLink>About</NavLink>
+						</Link>
+					</li>
+					<li>
 						<Link href="#projects">
 							<NavLink>Projects</NavLink>
 						</Link>
@@ -61,11 +66,6 @@ const Header = () => {
 					<li>
 						<Link href="#tech">
 							<NavLink>Skills</NavLink>
-						</Link>
-					</li>
-					<li>
-						<Link href="#about">
-							<NavLink>About</NavLink>
 						</Link>
 					</li>
 				</Div2>

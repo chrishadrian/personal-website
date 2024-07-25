@@ -6,6 +6,7 @@ export const projects = [
 		image: "/images/RecipeBuddy.png",
 		tags: ["ReactJS", "Auth0", "Firestore"],
 		source: "https://github.com/chrishadrian/my-recipe-buddy",
+		video: "https://www.youtube.com/",
 		visit: "https://myrecipebuddy.netlify.app/",
 		id: 4,
 	},
@@ -16,6 +17,7 @@ export const projects = [
 		image: "/images/GISAU.png",
 		tags: ["ReactJS", "Express", "Typescript", "Tailwind CSS", "Auth0", "Firebase"],
 		source: "https://github.com/gisauweb/GISAUBC",
+		video: "https://www.youtube.com/",
 		visit: "https://gisaubc.com",
 		id: 3,
 	},
@@ -26,6 +28,7 @@ export const projects = [
 		image: "/images/SyncUp.png",
 		tags: ["ReactJS", "ExpressJS", "NodeJS", "Firebase Authentication", "Firestore"],
 		source: "https://github.com/Julian-UBC/Sync-Up",
+		video: "https://www.youtube.com/",
 		visit: "https://github.com/Julian-UBC/Sync-Up",
 		id: 2,
 	},
@@ -36,6 +39,7 @@ export const projects = [
 		image: "/images/1.png",
 		tags: ["Java", "Java Swing", "JSON"],
 		source: "https://github.com/chrishadrian/Unixpense",
+		video: "https://www.youtube.com/",
 		visit: "https://github.com/chrishadrian/Unixpense",
 		id: 1,
 	},
@@ -46,6 +50,7 @@ export const projects = [
 		image: "/images/0.png",
 		tags: ["HTML", "CSS", "Javascript"],
 		source: "https://github.com/northmen-hackers",
+		video: "https://www.youtube.com/",
 		visit: "https://devpost.com/software/prografit",
 		id: 0,
 	},
@@ -65,7 +70,7 @@ export const TimeLineData = [
 		year: 2023,
 		text: "Finished 1 year Co-op at Alida and lead web development team at Gado-Gado Indonesian Student Association of UBC",
 	},
-	{ year: 2024, text: "Looking for summer 2024 internship" },
+	{ year: 2024, text: "Looking for 2024 new graduate opportunities" },
 ];
 
 export const data = [
