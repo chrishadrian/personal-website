@@ -27,22 +27,16 @@ export const ProfileImage = styled.img`
 	border-radius: 50%;
 	margin-right: 80px;
 	object-fit: cover;
-	@media ${(props) => props.theme.breakpoints.sm} {
-		width: 120px;
-		height: 120px;
-		margin-bottom: 20px;
-		margin-right: 0;
-	}
-	@media ${(props) => props.theme.breakpoints.md} {
-		width: 130px;
-		height: 130px;
-		margin-bottom: 20px;
-		margin-right: 0;
-	}
 	@media ${(props) => props.theme.breakpoints.lg} {
 		width: 240px;
 		height: 240px;
 		margin-right: 50px;
+	}
+	@media ${(props) => props.theme.breakpoints.md} {
+		width: 200px;
+		height: 200px;
+		margin-bottom: 20px;
+		margin-right: 0;
 	}
 `;
 
