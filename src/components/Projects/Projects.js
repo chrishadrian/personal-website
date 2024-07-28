@@ -21,24 +21,28 @@ import {
 	SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import { SiReact, SiAuth0, SiFirebase, SiTypescript, SiTailwindcss, SiHtml5, SiCss3, SiJavascript, SiExpress, SiJson } from "react-icons/si";
+import { FaJava, FaNodeJs } from "react-icons/fa";
 
-// Mapping for technology logos
-const techLogos = {
-	ReactJS: "/logos/reactjs.png",
-	Auth0: "/logos/auth0.png",
-	Firestore: "/logos/firestore.png",
-	Express: "/logos/express.png",
-	Typescript: "/logos/typescript.png",
-	"Tailwind CSS": "/logos/tailwindcss.png",
-	Firebase: "/logos/firebase.png",
-	NodeJS: "/logos/nodejs.png",
-	"Firebase Authentication": "/logos/firebaseauth.png",
-	Java: "/logos/java.png",
-	"Java Swing": "/logos/javaswing.png",
-	JSON: "/logos/json.png",
-	HTML: "/logos/html.png",
-	CSS: "/logos/css.png",
-	Javascript: "/logos/javascript.png",
+// Set the app element to hide main content from screen readers when modal is open
+if (typeof window !== "undefined") {
+	ReactModal.setAppElement("#__next");
+}
+
+const techIcons = {
+	ReactJS: <SiReact />,
+	Auth0: <SiAuth0 />,
+	Express: <SiExpress />,
+	Typescript: <SiTypescript />,
+	"Tailwind CSS": <SiTailwindcss />,
+	Firebase: <SiFirebase />,
+	NodeJS: <FaNodeJs />,
+	"Firebase Authentication": <SiFirebase />,
+	Java: <FaJava />,
+	JSON: <SiJson />,
+	HTML: <SiHtml5 />,
+	CSS: <SiCss3 />,
+	Javascript: <SiJavascript />,
 };
 
 const Projects = () => {
@@ -82,19 +86,19 @@ const Projects = () => {
 					style={{
 						overlay: {
 							backgroundColor: 'rgba(0, 0, 0, 0.75)',
-							backdropFilter: 'blur(10px)'
+							backdropFilter: 'blur(10px)',
 						},
 						content: {
 							inset: '20%',
 							border: 'none',
 							background: 'none',
-							overflow: 'visible'
-						}
+							overflow: 'visible',
+						},
 					}}
 				>
 					<ModalContent>
-						<Img src={selectedProject.image} />
 						<CloseButton onClick={closeModal}>×</CloseButton>
+						<Img src={selectedProject.image} />
 						<TitleContent>
 							<HeaderThree title>{selectedProject.title}</HeaderThree>
 						</TitleContent>
@@ -103,7 +107,9 @@ const Projects = () => {
 							<TitleContent>Stack</TitleContent>
 							<TagList>
 								{selectedProject.tags.map((tag, i) => (
-									<img key={i} src={techLogos[tag]} alt={tag} style={{ width: "30px", height: "30px", margin: "0 10px" }} />
+									<div key={i} style={{ width: "30px", height: "30px", margin: "0 10px" }}>
+										{techIcons[tag] || tag}
+									</div>
 								))}
 							</TagList>
 						</div>

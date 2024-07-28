@@ -2,9 +2,9 @@ export const projects = [
 	{
 		title: "Recipe Buddy",
 		description:
-			"This web application was crafted with ReactJS, Auth0, and Firestore to deliver a streamlined solution for organizing online video recipes sourced from platforms like Instagram and TikTok. It allows users to gather recipes, access tutorial videos, ingredient lists, and instructions, while also offering a meal planning feature integrated with a calendar. Additionally, the application automatically generates shopping lists based on scheduled recipes, enhancing the overall cooking experience with efficiency and convenience.",
+			"This web application was crafted with ReactJS, Auth0, and Firebase Firestore to deliver a streamlined solution for organizing online video recipes sourced from platforms like Instagram and TikTok. It allows users to gather recipes, access tutorial videos, ingredient lists, and instructions, while also offering a meal planning feature integrated with a calendar. Additionally, the application automatically generates shopping lists based on scheduled recipes, enhancing the overall cooking experience with efficiency and convenience.",
 		image: "/images/RecipeBuddy.png",
-		tags: ["ReactJS", "Auth0", "Firestore"],
+		tags: ["ReactJS", "Auth0", "Firebase"],
 		source: "https://github.com/chrishadrian/my-recipe-buddy",
 		video: "https://www.youtube.com/",
 		visit: "https://myrecipebuddy.netlify.app/",
@@ -13,7 +13,7 @@ export const projects = [
 	{
 		title: "GISAU Website",
 		description:
-			"This student association's web application serves as the central hub for the Indonesian student association at UBC, showcasing its online presence. Developed with ReactJS, Express, Typescript, Tailwind CSS, Auth0, Firebase Function, and Google Firestore, the application includes key pages such as home, about us, events, partners,  contact us, and games. It effectively highlights the association's mission and activities, demonstrating proficiency in modern web development technologies.",
+			"This student association's web application serves as the central hub for the Indonesian student association at UBC, showcasing its online presence. Developed with ReactJS, Express, Typescript, Tailwind CSS, Auth0, Firebase Function, and Firebase Firestore, the application includes key pages such as home, about us, events, partners,  contact us, and games. It effectively highlights the association's mission and activities, demonstrating proficiency in modern web development technologies.",
 		image: "/images/GISAU.png",
 		tags: ["ReactJS", "Express", "Typescript", "Tailwind CSS", "Auth0", "Firebase"],
 		source: "https://github.com/gisauweb/GISAUBC",
@@ -24,9 +24,9 @@ export const projects = [
 	{
 		title: "Sync-Up",
 		description:
-			"This web application, developed using ReactJS, ExpressJS, NodeJS, Firebase Authentication, and Firestore, is designed to enhance the study session scheduling experience. Users can effortlessly arrange study sessions with friends, earning reward points based on session duration, which can later be redeemed for sponsor coupons. Additionally, the application offers the flexibility to choose between in-person and virtual meeting options, catering to diverse user preferences.",
+			"This web application, developed using ReactJS, ExpressJS, NodeJS, Firebase Authentication, and Firebase Firestore, is designed to enhance the study session scheduling experience. Users can effortlessly arrange study sessions with friends, earning reward points based on session duration, which can later be redeemed for sponsor coupons. Additionally, the application offers the flexibility to choose between in-person and virtual meeting options, catering to diverse user preferences.",
 		image: "/images/SyncUp.png",
-		tags: ["ReactJS", "ExpressJS", "NodeJS", "Firebase Authentication", "Firestore"],
+		tags: ["ReactJS", "Express", "NodeJS", "Firebase"],
 		source: "https://github.com/Julian-UBC/Sync-Up",
 		video: "https://www.youtube.com/",
 		visit: "https://github.com/Julian-UBC/Sync-Up",
@@ -37,7 +37,7 @@ export const projects = [
 		description:
 			"A user-friendly expense tracker application built with Java, Java Swing, and JSON. This project included the creation of an end-to-end object-oriented program (OOP) in Java, seamless data read/write using JSON, and an intuitive graphical user interface (GUI) designed with Java Swing. Users can easily manage expenses, perform actions like creation, deletion, saving, loading, and in-depth analysis.",
 		image: "/images/1.png",
-		tags: ["Java", "Java Swing", "JSON"],
+		tags: ["Java", "JSON"],
 		source: "https://github.com/chrishadrian/Unixpense",
 		video: "https://www.youtube.com/",
 		visit: "https://github.com/chrishadrian/Unixpense",
