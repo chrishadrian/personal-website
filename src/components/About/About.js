@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-
 import {
 	CarouselButton,
 	CarouselButtonDot,
@@ -10,7 +9,7 @@ import {
 	CarouselItemText,
 	CarouselItemTitle,
 	CarouselMobileScrollNode,
-} from "./TimeLineStyles";
+} from "./AboutStyles";
 import {
 	Section,
 	SectionDivider,
@@ -26,7 +25,9 @@ const Timeline = () => {
 	const carouselRef = useRef();
 
 	const scroll = (node, left) => {
-		return node.scrollTo({ left, behavior: "smooth" });
+		while (node) {
+			return node.scrollTo({ left, behavior: "smooth" });
+		}
 	};
 
 	const handleClick = (e, i) => {
@@ -34,9 +35,7 @@ const Timeline = () => {
 
 		if (carouselRef.current) {
 			const scrollLeft = Math.floor(
-				carouselRef.current.scrollWidth *
-					0.7 *
-					(i / TimeLineData.length)
+				carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
 			);
 
 			scroll(carouselRef.current, scrollLeft);
@@ -48,21 +47,24 @@ const Timeline = () => {
 			const index = Math.round(
 				(carouselRef.current.scrollLeft /
 					(carouselRef.current.scrollWidth * 0.7)) *
-					TimeLineData.length
+				TimeLineData.length
 			);
 
 			setActiveItem(index);
 		}
 	};
 
-	// snap back to beginning of scroll when window is resized
-	// avoids a bug where content is covered up if coming from smaller screen
+	// Snap back to the beginning of the scroll when the window is resized
+	// This avoids a bug where content is covered up if coming from a smaller screen
 	useEffect(() => {
 		const handleResize = () => {
-			scroll(carouselRef.current, 0);
+			if (carouselRef.current) {
+				scroll(carouselRef.current, 0);
+			}
 		};
 
 		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
 	}, []);
 
 	return (
@@ -71,7 +73,7 @@ const Timeline = () => {
 			<br />
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-			I appreciate how technology simplifies complex problems and enhances efficiency, preferring optimized solutions over unnecessary complications. As a senior computer science student at the University of British Columbia, I am passionate about software development, AI, ML, e-commerce, and cloud computing services.
+				I appreciate how technology simplifies complex problems and enhances efficiency, preferring optimized solutions over unnecessary complications. As a senior computer science student at the University of British Columbia, I am passionate about software development, AI, ML, e-commerce, and cloud computing services.
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>

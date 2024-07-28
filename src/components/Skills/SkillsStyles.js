@@ -36,21 +36,15 @@ export const List = styled.ul`
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 40px;
-	margin: 3rem 0;
-
-	@media ${(props) => props.theme.breakpoints.lg} {
-		margin: 64px 0;
-	}
+	margin: 1rem 0 4rem;
 
 	@media ${(props) => props.theme.breakpoints.md} {
-		margin: 64px 0;
 		gap: 24px;
 	}
 
 	@media ${(props) => props.theme.breakpoints.sm} {
 		display: flex;
 		flex-direction: column;
-		margin: 32px 0;
 	}
 `;
 

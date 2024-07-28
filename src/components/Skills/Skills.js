@@ -12,10 +12,10 @@ import {
 	ListItem,
 	ListParagraph,
 	ListTitle,
-} from "./TechnologiesStyles";
+} from "./SkillsStyles";
 
 const Skills = () => (
-	<Section id="tech">
+	<Section id="skills">
 		<SectionDivider />
 		<br />
 		<SectionTitle>Skills</SectionTitle>

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 
-import { Section, SectionTitle } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { Section, SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AccomplishmentsStyles";
 import { data } from "../../constants/constants";
 import { getContributions } from "../../libs/githubAPI";
 
-const Acomplishments = () => {
+const Accomplishments = () => {
 	const [contributions, setContributions] = useState(0);
 
 	useEffect(async () => {
@@ -19,7 +19,9 @@ const Acomplishments = () => {
 		);
 	}, []);
 	return (
-		<Section>
+		<Section id="accomplishments">
+			<SectionDivider />
+			<br />
 			<SectionTitle>Personal Acomplishment</SectionTitle>
 			<Boxes>
 				{data.map((card, index) => (
@@ -37,4 +39,4 @@ const Acomplishments = () => {
 	);
 };
 
-export default Acomplishments;
+export default Accomplishments;

@@ -15,7 +15,7 @@ export const CarouselContainer = styled.ul`
     margin-left: 0px;
   }
 
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 
   //remove scrollbar
   scrollbar-width: none;  
@@ -126,7 +126,7 @@ export const CarouselButtons = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     visibility: visible;
-    margin-bottom: 48px;
+    margin-bottom: 4rem;
   }
 `
 

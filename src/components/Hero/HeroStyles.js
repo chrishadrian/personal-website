@@ -10,14 +10,14 @@ export const LeftSection = styled.div`
 		width: 100%;
 		display: flex;
 		align-items: center;
-		margin: 0 auto;
+		margin: 0 auto 4rem;
 	}
 	@media ${(props) => props.theme.breakpoints.md} {
 		flex-direction: column;
 		width: 100%;
 		display: flex;
 		align-items: center;
-		margin: 0 auto;
+		margin: 0 auto 3rem;
 	}
 `;
 

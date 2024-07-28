@@ -45,7 +45,7 @@ const Projects = () => {
 	};
 
 	return (
-		<Section nopadding id="projects">
+		<Section id="projects">
 			<SectionDivider />
 			<br />
 			<SectionTitle>Projects</SectionTitle>
