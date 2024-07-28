@@ -87,7 +87,7 @@ const Projects = () => {
 					style={{
 						overlay: {
 							backgroundColor: 'rgba(0, 0, 0, 0.75)',
-							backdropFilter: 'blur(10px)',
+
 						},
 						content: {
 							inset: '20%',
@@ -101,11 +101,15 @@ const Projects = () => {
 						<CloseButton onClick={closeModal}>×</CloseButton>
 						<ModalImg src={selectedProject.image} />
 						<TitleContent>
-							<HeaderThree title>{selectedProject.title}</HeaderThree>
+							<HeaderThree isTitle>{selectedProject.title}</HeaderThree>
 						</TitleContent>
 						<CardInfo>{selectedProject.description}</CardInfo>
 						<div>
-							<TitleContent>Stack</TitleContent>
+							<TitleContent>
+								<HeaderThree>
+									Stack
+								</HeaderThree>
+							</TitleContent>
 							<TagList>
 								{selectedProject.tags.map((tag, i) => (
 									<div key={i} style={{ width: "30px", height: "30px", margin: "0 10px" }}>

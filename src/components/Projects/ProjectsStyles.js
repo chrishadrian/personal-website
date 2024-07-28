@@ -71,7 +71,7 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
-  word-spacing: -2px;
+  word-spacing: -1px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: .3rem 3rem;
   }
@@ -99,9 +99,8 @@ export const ExternalLinks = styled.a`
 
 export const TagList = styled.ul`
   display: flex;
-  justify-content: space-around;
-  padding: 1.5rem 2rem 0.5rem;
-  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1.5rem;
 `;
 
 export const Tag = styled.li`
@@ -126,6 +125,9 @@ export const Button = styled.button`
 
 export const ModalImg = styled.img`
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+	margin-bottom: 5px;
 `;
 
 export const ModalContent = styled.div`
