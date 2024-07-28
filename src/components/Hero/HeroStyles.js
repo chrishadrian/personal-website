@@ -44,9 +44,12 @@ export const ContentSection = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	justify-content: center;
+	margin-top: 5rem;
 	@media ${(props) => props.theme.breakpoints.md} {
 		align-items: center;
 		text-align: center;
+		margin-top: 0;
 	}
 	@media ${(props) => props.theme.breakpoints.sm} {
 		align-items: center;
