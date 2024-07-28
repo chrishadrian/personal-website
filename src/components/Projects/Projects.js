@@ -69,7 +69,7 @@ const Projects = () => {
 					<BlogCard key={id}>
 						<Img src={image} />
 						<TitleContent>
-							<HeaderThree title>{title}</HeaderThree>
+							<HeaderThree isTitle>{title}</HeaderThree>
 						</TitleContent>
 						<CardInfo>{description.substring(0, 100)}...</CardInfo>
 						<Button onClick={() => openModal({ id, image, title, description, tags, source, video, visit })}>
