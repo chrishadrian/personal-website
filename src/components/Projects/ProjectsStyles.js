@@ -124,6 +124,10 @@ export const Button = styled.button`
   }
 `;
 
+export const ModalImg = styled.img`
+  width: 100%;
+`;
+
 export const ModalContent = styled.div`
   position: relative;
   padding-bottom: 20px;

@@ -14,6 +14,7 @@ import {
 	Button,
 	ModalContent,
 	CloseButton,
+	ModalImg,
 } from "./ProjectsStyles";
 import {
 	Section,
@@ -71,7 +72,7 @@ const Projects = () => {
 						<TitleContent>
 							<HeaderThree isTitle>{title}</HeaderThree>
 						</TitleContent>
-						<CardInfo>{description.substring(0, 100)}...</CardInfo>
+						<CardInfo>{description.substring(0, 102)}...</CardInfo>
 						<Button onClick={() => openModal({ id, image, title, description, tags, source, video, visit })}>
 							View More
 						</Button>
@@ -98,7 +99,7 @@ const Projects = () => {
 				>
 					<ModalContent>
 						<CloseButton onClick={closeModal}>×</CloseButton>
-						<Img src={selectedProject.image} />
+						<ModalImg src={selectedProject.image} />
 						<TitleContent>
 							<HeaderThree title>{selectedProject.title}</HeaderThree>
 						</TitleContent>
