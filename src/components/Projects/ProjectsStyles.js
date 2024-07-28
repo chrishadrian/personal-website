@@ -44,7 +44,7 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.isTitle ? '3rem' : '2rem'};
-`; 
+`;
 
 export const Hr = styled.hr`
   width: 50px;
@@ -82,7 +82,7 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 3rem 0 0.5rem;
 `;
 
 export const ExternalLinks = styled.a`
@@ -100,7 +100,7 @@ export const ExternalLinks = styled.a`
 export const TagList = styled.ul`
   display: flex;
   justify-content: center;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 `;
 
 export const Tag = styled.li`
@@ -127,7 +127,7 @@ export const ModalImg = styled.img`
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 `;
 
 export const ModalContent = styled.div`
@@ -155,5 +155,19 @@ export const CloseButton = styled.button`
   border-radius: 50%;
   &:hover {
     background: #ff0000;
+  }
+`;
+
+export const TechIconWrapper = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  color: white; /* Change this to the desired color */
+  transition: color 0.3s;
+  &:hover {
+    color: #d4c0c0; /* Change this to the desired hover color */
   }
 `;

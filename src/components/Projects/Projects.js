@@ -15,6 +15,7 @@ import {
 	ModalContent,
 	CloseButton,
 	ModalImg,
+	TechIconWrapper,
 } from "./ProjectsStyles";
 import {
 	Section,
@@ -22,29 +23,12 @@ import {
 	SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
-import { SiReact, SiAuth0, SiFirebase, SiTypescript, SiTailwindcss, SiHtml5, SiCss3, SiJavascript, SiExpress, SiJson } from "react-icons/si";
-import { FaJava, FaNodeJs } from "react-icons/fa";
+import { techIcons, techUrls } from "./constants";
 
 // Set the app element to hide main content from screen readers when modal is open
 if (typeof window !== "undefined") {
 	ReactModal.setAppElement("#__next");
 }
-
-const techIcons = {
-	ReactJS: <SiReact />,
-	Auth0: <SiAuth0 />,
-	Express: <SiExpress />,
-	Typescript: <SiTypescript />,
-	"Tailwind CSS": <SiTailwindcss />,
-	Firebase: <SiFirebase />,
-	NodeJS: <FaNodeJs />,
-	"Firebase Authentication": <SiFirebase />,
-	Java: <FaJava />,
-	JSON: <SiJson />,
-	HTML: <SiHtml5 />,
-	CSS: <SiCss3 />,
-	Javascript: <SiJavascript />,
-};
 
 const Projects = () => {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -87,7 +71,7 @@ const Projects = () => {
 					style={{
 						overlay: {
 							backgroundColor: 'rgba(0, 0, 0, 0.75)',
-
+							backdropFilter: 'blur(10px)',
 						},
 						content: {
 							inset: '20%',
@@ -106,15 +90,13 @@ const Projects = () => {
 						<CardInfo>{selectedProject.description}</CardInfo>
 						<div>
 							<TitleContent>
-								<HeaderThree>
-									Stack
-								</HeaderThree>
+								<HeaderThree>Stack</HeaderThree>
 							</TitleContent>
 							<TagList>
 								{selectedProject.tags.map((tag, i) => (
-									<div key={i} style={{ width: "30px", height: "30px", margin: "0 10px" }}>
+									<TechIconWrapper key={i} href={techUrls[tag]} target="_blank" rel="noopener noreferrer" title={tag}>
 										{techIcons[tag] || tag}
-									</div>
+									</TechIconWrapper>
 								))}
 							</TagList>
 						</div>
