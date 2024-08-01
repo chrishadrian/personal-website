@@ -102,7 +102,7 @@ const Projects = () => {
 						</div>
 						<UtilityList>
 							<ExternalLinks href={selectedProject.source} target="_blank">Code</ExternalLinks>
-							<ExternalLinks href={selectedProject.video} target="_blank">Video</ExternalLinks>
+							{selectedProject.video && <ExternalLinks href={selectedProject.video} target="_blank">Video</ExternalLinks>}
 							<ExternalLinks href={selectedProject.visit} target="_blank">Inspect</ExternalLinks>
 						</UtilityList>
 					</ModalContent>
