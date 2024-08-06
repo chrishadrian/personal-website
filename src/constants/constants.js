@@ -70,7 +70,7 @@ export const TimeLineData = [
 		year: 2023,
 		text: "Finished 1 year Co-op at Alida and lead web development team at Gado-Gado Indonesian Student Association of UBC",
 	},
-	{ year: 2024, text: "Looking for 2024 new graduate opportunities" },
+	{ year: 2024, text: "Looking for 2025 new graduate opportunities" },
 ];
 
 export const data = [
