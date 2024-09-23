@@ -27,7 +27,7 @@ const Accomplishments = () => {
 				{data.map((card, index) => (
 					<Box key={index}>
 						<BoxNum>
-							{card.text === "Github Contributions (1y)"
+							{card.text === "Github Contributions"
 								? contributions
 								: card.number}
 						</BoxNum>

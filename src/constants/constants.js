@@ -77,5 +77,5 @@ export const data = [
 	{ number: 1.2, text: "Years of Experience" },
 	{ number: 2, text: "Hackathon Participation" },
 	{ number: 14, text: "Github Repositories" },
-	{ number: 503, text: "Github Contributions" },
+	{ number: 503, text: "Github Contributions (1Y)" },
 ];
