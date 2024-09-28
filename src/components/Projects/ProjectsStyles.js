@@ -71,7 +71,7 @@ export const CardInfo = styled.p`
     width: 100%;
     padding: 1rem 50px;
     color: #e4e6e7;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 24px;
     text-align: justify;
     word-spacing: -1px;
