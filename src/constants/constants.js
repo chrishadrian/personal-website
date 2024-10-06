@@ -8,7 +8,18 @@ export const projects = [
     source: "https://github.com/gisauweb/GISAUBC",
     video: "https://www.youtube.com/watch?v=cMu4nmqG8EM",
     visit: "https://gisaubc.com",
-    id: 3,
+    id: 0,
+  },
+  {
+    title: "UBC Course Insights",
+    description:
+		"A web application designed to help UBC students make informed decisions about the courses they plan to take. The platform provides detailed grade statistics, including course averages, pass/fail rates, and professor rankings based on section averages. Students can search for specific courses by subject and number, view historical grade trends, and compare professors for a given course based on their grading history. The application ensures students have the data they need to plan their schedules with confidence, knowing which courses and professors align with their academic goals. Built using React for the front-end, Tailwind CSS and Material Tailwind for styling, and powered by a backend API, the app offers an intuitive search functionality with dropdown menus to filter courses and professors, making it a seamless user experience.",
+    image: "/images/ubc-course-insight.jpg",
+    tags: ["ReactJS", "Express", "Typescript", "Tailwind CSS"],
+    source: "https://github.com/chrishadrian/ubc-course-insights/tree/main/frontend",
+    video: "https://www.youtube.com/watch?v=3L_qb9my_og&ab_channel=ChristopherWong",
+    visit: "https://github.com/chrishadrian/ubc-course-insights/tree/main/frontend",
+    id: 1,
   },
 	{
 		title: "Recipe Buddy",
@@ -19,7 +30,7 @@ export const projects = [
 		source: "https://github.com/chrishadrian/my-recipe-buddy",
 		video: "https://youtu.be/y8570oWkW-s",
 		visit: "https://myrecipebuddy.netlify.app/",
-		id: 4,
+		id: 2,
 	},
   {
 		title: "Sync-Up",
@@ -29,7 +40,7 @@ export const projects = [
     tags: ["ReactJS", "Express", "NodeJS", "Firebase"],
     source: "https://github.com/Julian-UBC/Sync-Up",
     visit: "https://github.com/Julian-UBC/Sync-Up",
-    id: 2,
+    id: 3,
   },
   {
     title: "Unixpense",
@@ -40,7 +51,7 @@ export const projects = [
     source: "https://github.com/chrishadrian/Unixpense",
     video: "https://youtu.be/EcMAjR00KbA",
     visit: "https://github.com/chrishadrian/Unixpense",
-    id: 1,
+    id: 4,
   },
   {
     title: "HacktheNorth 2021: Prografit",
@@ -50,7 +61,7 @@ export const projects = [
     tags: ["HTML", "CSS", "Javascript"],
     source: "https://github.com/northmen-hackers",
     visit: "https://devpost.com/software/prografit",
-    id: 0,
+    id: 5,
   },
 ];
 
