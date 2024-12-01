@@ -11,10 +11,10 @@ import { LeftSection, ProfileImage, ContentSection } from "./HeroStyles";
 import { ReactTyped } from "react-typed";
 
 const handleDownload = () => {
-	const fileUrl = window.location.origin + "/files/Christopher_Wong_Resume.pdf";
+	const fileUrl = window.location.origin + "/files/Christopher_Hadrian_Wong_Resume.pdf";
 	const link = document.createElement("a");
 	link.href = fileUrl;
-	link.download = "Christopher_Wong_Resume.pdf";
+	link.download = "Christopher_Hadrian_Wong_Resume.pdf";
 	document.body.appendChild(link);
 	link.click();
 	document.body.removeChild(link);
