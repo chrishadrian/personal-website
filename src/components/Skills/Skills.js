@@ -48,7 +48,7 @@ const Skills = () => (
 				<ListContainer>
 					<ListTitle>Technologies</ListTitle>
 					<ListParagraph>
-						React/Redux, Tailwind CSS, Express, Koa, Docker, Git,
+						React/Redux, Tailwind CSS, Express, Next.js, Koa, Docker, Git,
 						Jira, AWS, Kibana
 					</ListParagraph>
 				</ListContainer>

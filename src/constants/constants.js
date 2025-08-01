@@ -79,14 +79,14 @@ export const TimeLineData = [
 	},
 	{
 		year: 2023,
-		text: "Finished 1 year Co-op at Alida and lead web development team at Gado-Gado Indonesian Student Association of UBC",
+		text: "Finished 1 year Co-op at Alida and led web development team at Gado-Gado Indonesian Student Association of UBC",
 	},
-	{ year: 2025, text: "Incoming SWE @ Amazon" },
+	{ year: 2025, text: "Incoming SWE @ AWS" },
 ];
 
 export const data = [
 	{ number: 1.2, text: "Years of Experience" },
 	{ number: 2, text: "Hackathon Participation" },
-	{ number: 14, text: "Github Repositories" },
-	{ number: 503, text: "Github Contributions (1Y)" },
+	{ number: 31, text: "Github Repositories" },
+	{ number: 755, text: "Highest Github Contributions" },
 ];

@@ -73,7 +73,7 @@ const Timeline = () => {
 			<br />
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-				I appreciate how technology simplifies complex problems and enhances efficiency, preferring optimized solutions over unnecessary complications. As a senior computer science student at the University of British Columbia, I am passionate about software development, AI, ML, e-commerce, and cloud computing services.
+        I’m passionate about leveraging technology to simplify complex problems and drive efficiency through optimized solutions. As a Computer Science graduate from the University of British Columbia, my interests lie in software development, AI/ML, e-commerce, and cloud computing.
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
