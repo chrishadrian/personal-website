@@ -1,22 +1,51 @@
-import React from 'react';
+// Hero.js
+import React from "react";
+import {
+	Section,
+	SectionSubText,
+	SectionText,
+	SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection, ProfileImage, ContentSection } from "./HeroStyles";
+import { ReactTyped } from "react-typed";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+const handleDownload = () => {
+	const fileUrl = window.location.origin + "/files/Christopher_Hadrian_Wong_Resume.pdf";
+	const link = document.createElement("a");
+	link.href = fileUrl;
+	link.download = "Christopher_Hadrian_Wong_Resume.pdf";
+	document.body.appendChild(link);
+	link.click();
+	document.body.removeChild(link);
+};
 
-const Hero = (props) => (
-  <Section row nopadding>
-    <LeftSection>
-      <SectionTitle main center>
-        Hello World! <br />
-        I am Christopher Wong
-      </SectionTitle>
-      <SectionText>
-      An independent and self-motivated sophomore computer science student with experience working on website development. Looking for a role where I can grow and learn from the experienced team members while implementing current skills to contribute to the team.
-      </SectionText>
-      <Button onClick={() => window.location = 'https://linkedin.com/in/chrishadrianwong'}>Learn More</Button>
-    </LeftSection>
-  </Section>
+const Hero = () => (
+	<Section row nopadding>
+		<LeftSection>
+			<ProfileImage src={"/images/profile.jpg"} alt="Christopher Wong" />
+			<ContentSection>
+				<SectionTitle main>
+					Hello World!
+				</SectionTitle>
+				<SectionTitle typed>
+					<ReactTyped
+						strings={[
+							"I am Christopher Hadrian Wong",
+							"I am an aspiring Software Engineer",
+							"I am an aspiring Full-Stack Developer",
+							"I love building impactful projects",
+							"I love playing basketball"
+						]}
+						typeSpeed={40}
+						backSpeed={50}
+						loop
+					/>
+				</SectionTitle>
+				<Button onClick={handleDownload}>My Résumé</Button>
+			</ContentSection>
+		</LeftSection>
+	</Section>
 );
 
 export default Hero;

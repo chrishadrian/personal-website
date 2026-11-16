@@ -26,17 +26,25 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
-  line-height: ${(props) => props.main ? '72px' : '56px'};
-  width: max-content;
+  font-size: ${(props) => props.main ? '50px' : '36px'};
+  line-height: ${(props) => props.main ? '36px' : '56px'};
+  width: ${(props) => props.typed ? '98%' : 'max-content'};
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  margin-bottom:  ${(props) => props.main ? '0' : '16px'};
+  padding: ${(props) => props.main ? '40px 0 16px' : '0'};
+  white-space: normal;
+  word-break: break-word;
+  text-align: left;
+
+	@media ${props => props.theme.breakpoints.lg}{
+    font-size: ${(props) => props.main ? '50px' : props.typed ? '32px' : '40px'};
+  }
 
   @media ${props => props.theme.breakpoints.md}{
+		text-align: center;
     font-size: ${(props) => props.main ? '56px' : '48px'};
     line-height: ${(props) => props.main ? '56px' : '48px'};
     margin-bottom: 12px;
@@ -44,19 +52,18 @@ export const SectionTitle = styled.h2`
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    font-size: 32px;
-    line-height: 40px;
-    font-size: ${(props) => props.main ? '28px' : '32px'};
+    font-size: ${(props) => props.main ? '38px' : props.typed ? '24px' : '32px'};
     line-height: ${(props) => props.main ? '32px' : '40px'};
     margin-bottom: 8px;
-    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
-    max-width: 100%;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0 4px'};
+    width: 100%;
+		text-align: center;
   }
-`
+`;
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
@@ -167,8 +174,8 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  width: ${({ alt }) => alt ? '150px' : '232px'};
+  height: ${({ alt }) => alt ? '52px' : '50px'};
   border-radius: 50px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
@@ -192,7 +199,6 @@ export const ButtonBack = styled.div`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
     height: 32px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
